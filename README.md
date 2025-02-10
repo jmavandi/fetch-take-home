@@ -21,7 +21,7 @@ Hey there! This is my take on Fetch's frontend challenge - a dog adoption app bu
 
 ## 🚀 Live Demo
 
-Check out the live site: [Fetch Dog Adoption](https://your-vercel-url-here.vercel.app)
+Check out the live site: [Fetch Dog Adoption](https://fetch-take-home-nu.vercel.app/)
 
 ## 💻 Running Locally
 
@@ -29,7 +29,7 @@ Want to run this on your machine? Here's how:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/fetch-take-home.git
+git clone https://github.com/jmavandi/fetch-take-home.git
 
 # Install dependencies
 npm install
