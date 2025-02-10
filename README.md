@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐕 Fetch Dog Adoption App
 
-## Getting Started
+Hey there! This is my take on Fetch's frontend challenge - a dog adoption app built with Next.js that helps connect shelter dogs with their forever homes.
 
-First, run the development server:
+## 🎯 What It Does
+
+- Log in with your name and email (no account needed)
+- Browse through adoptable dogs with a bunch of filtering options:
+  - Search by breed
+  - Filter by age (from puppies to senior dogs)
+  - Find dogs in your area using ZIP codes
+  - Sort alphabetically (A-Z or Z-A)
+- Like your favorite pups and get matched with one to adopt!
+
+## 🛠️ Built With
+
+- [Next.js 14](https://nextjs.org/) - React framework
+- [TailwindCSS](https://tailwindcss.com/) - For styling
+- [React Icons](https://react-icons.github.io/react-icons/) - For the cute icons
+- [Vercel](https://vercel.com) - For deployment
+
+## 🚀 Live Demo
+
+Check out the live site: [Fetch Dog Adoption](https://your-vercel-url-here.vercel.app)
+
+## 💻 Running Locally
+
+Want to run this on your machine? Here's how:
 
 ```bash
+# Clone the repo
+git clone https://github.com/your-username/fetch-take-home.git
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser to see the app!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- The app uses Fetch's API (base URL: https://frontend-take-home-service.fetch.com)
+- Authentication is handled via HttpOnly cookies
+- All API requests need to include credentials
+- The search results are paginated with a max of 10,000 dogs per query
 
-## Learn More
+## 🙋‍♂️ About This Project
 
-To learn more about Next.js, take a look at the following resources:
+This was built as part of Fetch's frontend take-home challenge. The goal was to create a user-friendly interface for browsing adoptable dogs and implementing the match-making feature.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to check out the code and let me know what you think! 🐾
